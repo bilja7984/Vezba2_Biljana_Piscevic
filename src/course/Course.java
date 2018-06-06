@@ -11,11 +11,11 @@ public class Course {
         this.numberOfClasses = numberOfClasses;   
     }
     
-    public String name() {
+    public String getName() {
         return this.name;
     }
     
-    public void name(String name) {
+    public void setName(String name) {
         this.name = name;
     }
     
