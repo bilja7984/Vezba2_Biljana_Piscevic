@@ -27,4 +27,10 @@ public class Course {
         this.numberOfClasses = numberOfClasses;
     }
     
+    public void writte(){
+        System.out.println("Name of course is " + getName());
+        System.out.println("Number of classes is  " + getNumberOfClasses());
+        System.out.println();
+    }
+    
 }
