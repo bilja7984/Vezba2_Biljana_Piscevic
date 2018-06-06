@@ -6,6 +6,14 @@ public class Computer {
     private double processTact;
     private double memory;
     private int hardDrive;
+
+    public Computer() {
+        this.memory = 1.0;
+        this.hardDrive = 4444;
+        this.memory = 500;
+    }
+
+    
     
     public Computer(double processTact, double memory, int hardDrive) {
         this.processTact = processTact;

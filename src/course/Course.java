@@ -6,6 +6,11 @@ public class Course {
     private String name;
     private int numberOfClasses;
     
+    public Course() {
+        this.name = "def";
+        this.numberOfClasses = 22;   
+    }
+    
     public Course(String name, int numberOfClasses) {
         this.name = name;
         this.numberOfClasses = numberOfClasses;   
